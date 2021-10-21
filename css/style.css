@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.image {
+    height: 700px;
+    width: 100%;
+    min-width: 99%;
+    background: #55e6c5;
+    z-index: 1;
+}
+
+.content {
+    text-align: center;
+    padding-top: 70px;
+    height: 550px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600px;
+    margin: 30px 60px;
+}
+
+.content p {
+    font-size: 16px;
+    max-width: 500px;
+    max-height: 400px;
+    overflow: auto;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: auto;
+}
+
+#wall_1 {
+    background: url(../Images/swirl_pattern.png) repeat;
+    background-attachment: fixed;
+}
+#wall_2 {
+    background: url(../Images/school.png) repeat;
+    background-attachment: fixed;
+}
+#wall_3 {
+    background: url(../Images/skulls.png) repeat;
+    background-attachment: fixed;
+}
+
+
+
+#nav {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: black;
+    opacity: .9;
+    z-index: 100;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+}
+
+
+h1::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:darkturquoise;
+}
+
+#left_nav {
+   height:80px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: auto;
+}
+
+#left_nav ul {
+    height:90px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+
+#left_nav li {
+    margin-left:5px;
+    margin-right:5px;
+    height:70px;
+    display: inline-block;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 75px;  
+}
+
+
+
+#left_nav li p {
+    color:white;
+    margin-top:22px;
+    
+}
+
+#left_nav p:hover {
+    color:aqua;
+}
+
+#left_nav p:active {
+    color:pink;
+}
+
+#left_nav li a {
+    text-decoration: none;
+    color:white;
+}
+
+
+#footer{
+    margin-top:52px;
+    height: 72px;
+    width: 100%;
+    text-align:center;
+
+}
+
+#footer ul  {
+    display: inline;
+    margin-top: 30px;
+}
+
+#footer ul li {
+    display:inline;
+    
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: grey;
+    font-family: Arial;
+    margin-right: 20px;
+    height: 72px;
+}
